@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+input, textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 8px;
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
