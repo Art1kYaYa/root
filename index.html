@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Оформление доставки</h1>
+    
+    <label for="nickname">Никнейм:</label>
+    <input type="text" id="nickname" placeholder="Введите никнейм">
+    
+    <label for="items">Товары:</label>
+    <textarea id="items" placeholder="Перечислите товары"></textarea>
+    
+    <label for="coordinates">Координаты:</label>
+    <input type="text" id="coordinates" placeholder="x y z">
+
+    <button onclick="submitDelivery()">📦 Отправить заявку</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
